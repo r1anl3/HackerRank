@@ -1,5 +1,6 @@
 #code mượn 
 from collections import deque #tạo block phân chia vùng, tránh tràn data
+#rotate() nằm trong deque
 
 with open('D:\Python\day6.txt', 'r') as f:
     data = [int(i) for i in f.read().split(',')]
